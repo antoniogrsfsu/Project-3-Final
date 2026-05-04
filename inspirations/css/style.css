@@ -1,0 +1,262 @@
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+   min-height: 100dvh;
+   width: 100%;
+   background-color: rgb(31, 213, 249);
+   color: black;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9375rem 6.25rem;
+}
+
+nav img {
+    width: 10%;
+    
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 2.5rem;
+    list-style: none;
+   
+
+}
+
+nav ul li {
+    padding: 0.9375em;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    display: block;
+    padding: 2.5rem 2.5rem;
+}
+
+nav ul a:hover {
+    color: black;
+    background-color:white;
+    
+   
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+    margin: 100px auto;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    width: 900px;
+    height: 100px;
+  
+}
+
+  
+
+
+.doom {
+    margin: 100px 280px;
+    padding: 25px;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    line-height: 2;
+    
+    
+}
+
+.doom p {
+    text-align: center;
+    padding: 20px;
+    font-size: 29.5px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+
+
+
+.link1 a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 100px auto;
+    color: black;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    width: 250px;
+    height: 80px;
+  
+   
+}
+
+.link2 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 150px auto;
+    color: black;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    width: 430px;
+    height: 80px;
+  
+   
+}
+
+.link3 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 150px auto;
+    color: black;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    width: 300px;
+    height: 80px;
+  
+   
+}
+
+.ratm {
+    margin: 100px 280px;
+    padding: 25px;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    line-height: 2;
+    
+}
+
+.ratm p{
+    text-align: center;
+    padding: 20px;
+    font-size: 29.5px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.hara {
+    margin: 100px 280px;
+    padding: 25px;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    line-height: 2;
+
+}
+
+.hara p{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+img {
+    filter: drop-shadow(black 16px 16px);
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.9375rem 6.25rem;
+    height: 12.5rem
+
+}
+    
+footer a {
+    text-decoration: none;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    display: block;
+    padding: 2.5rem 2.5rem;
+    align-content: center;
+}
+
+
+footer a:hover {
+    color: black;
+    background-color:white;
+}
