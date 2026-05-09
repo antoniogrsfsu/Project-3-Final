@@ -96,6 +96,7 @@ h1 {
 p {
     margin: 400px;
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 60px;
    background-color: white;
    filter: drop-shadow(black 16px 16px);
@@ -111,6 +112,7 @@ p {
     display:flex;
     justify-content: center;
     margin-top: 10px;
+    
 }
 
 footer {
@@ -137,4 +139,42 @@ footer a {
 footer a:hover {
     color: black;
     background-color:white;
+}
+
+.typing {
+  width: 21ch;
+  animation: typing 2s steps(28), blink 1s step-end 3 forwards normal;
+  white-space: nowrap;
+  overflow: hidden;
+  
+  
+  
+  
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+
+  
+}
+    
+@keyframes blink {
+  50% {
+    border-right: 4px solid;
+  }
+
+  100% {
+    border-right: 4px transparent;
+
+  }
+
+  
+  
+ 
+  
 }

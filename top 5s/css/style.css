@@ -84,7 +84,7 @@ h1 {
     margin: 100px auto;
     background-color: white;
     filter: drop-shadow(black 16px 16px);
-    width: 900px;
+    width: 1250px;
     height: 200px;
   
 }
@@ -170,6 +170,11 @@ h1 {
 
 img {
     filter: drop-shadow(black 16px 16px);
+    
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 
@@ -185,6 +190,10 @@ img {
   margin-bottom: 300px;
   padding: 20px 30px;
   text-align: center;
+}
+
+.list2 li{
+    margin: 20px;
 }
 
 ul {
@@ -279,4 +288,47 @@ footer a {
 footer a:hover {
     color: black;
     background-color:white;
+}
+
+.typing1 {
+  width: 25ch;
+  animation: typing 2s steps(24), blink 1s step-end 3 forwards normal;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+.typing2 {
+  width: 23ch;
+  animation: typing 2s steps(24), blink 1s step-end 3 forwards normal;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+
+  
+}
+    
+@keyframes blink {
+  50% {
+    border-right: 4px solid;
+  }
+
+  100% {
+    border-right: 4px transparent;
+
+  }
+
+  
+  
+ 
+  
 }
