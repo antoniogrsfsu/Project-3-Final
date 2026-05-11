@@ -18,6 +18,7 @@ This project is a revision of Project One, which was a portfolio that contained 
 - Adjusted line lengths and font sizes on each page
 - Increased margins between various elements on inspirations and top fives page
 - Hover effect on all images that increases size by 10%
+- About me bio rewritten in third person
 
 # Acknowledgements
 
