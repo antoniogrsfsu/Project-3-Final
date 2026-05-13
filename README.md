@@ -15,7 +15,7 @@ This project is a revision of Project One, which was a portfolio that contained 
 - New text captions for every entry of the list instead of one that summarizes each list
 - Headers at the top of each page changed to "Goldman" font
 - A text typing animation for the header of each page upon loading the page 
-- Adjusted line lengths and font sizes on each page
+- Adjusted line lengths and font sizes on every page
 - Increased margins between various elements on inspirations and top fives page
 - Hover effect on all images that increases size by 10%
 - About me bio rewritten in third person
