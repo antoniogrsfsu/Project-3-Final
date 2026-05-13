@@ -1,1 +1,333 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overscroll-behavior: none;
+}
 
+
+html {
+    font-size: 100%;
+}
+
+body {
+   min-height: 100dvh;
+   width: 100%;
+   background-color: rgb(31, 213, 249);
+   color: black;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9375rem 6.25rem;
+}
+
+nav img {
+    width: 10%;
+    
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 2.5rem;
+    list-style: none;
+   
+
+}
+
+nav ul li {
+    padding: 0.9375em;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    display: block;
+    padding: 2.5rem 2.5rem;
+}
+
+nav ul a:hover {
+    color: black;
+    background-color:white;
+    
+   
+
+}
+
+
+
+
+
+
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Goldman", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+    margin: 100px auto;
+    background-color: white;
+    filter: drop-shadow(black 16px 16px);
+    width: 1250px;
+    height: 200px;
+  
+}
+
+
+
+.list1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  background-color: white;
+  filter: drop-shadow(black 16px 16px);
+  margin: 30px 90px;
+  padding: 20px 30px;
+  text-align: center;
+  height: 600px;
+}
+
+.list1 li {
+    margin: 20px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caption h1 {
+    margin-top: 300px;
+}
+
+#pokemon p {
+    margin: 20px;
+    margin-top: 50px;
+    padding: 25px;
+    font-size: 17px;
+    width: 230px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#chrono p {
+    margin: 15px;
+    margin-top: 55px;
+    padding: 40px;
+    font-size: 17px;
+    width: 250px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#terra p {
+    margin: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 17px;
+    width: 250px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#golden p{
+    margin: 15px;
+    padding: 30px;
+    font-size: 17px;
+    width: 270px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#mh4u p {
+    margin: 15px;
+    padding: 40px;
+    font-size: 17px;
+    width: 300px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    filter: drop-shadow(black 16px 16px);
+    
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.list2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  background-color: white;
+  filter: drop-shadow(black 16px 16px);
+  margin: 30px 90px;
+  margin-bottom: 300px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.list2 li{
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+#mgs p{
+    margin: 20px;
+    margin-top: 120px;
+    padding: 25px;
+    font-size: 17px;
+    width: 230px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#vegas p{
+    margin: 15px;
+    margin-top: 50px;
+    padding: 40px;
+    font-size: 17px;
+    width: 250px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hl2 p {
+    margin: 15px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 17px;
+    width: 250px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#dmc p{
+    margin: 20px;
+    margin-top: 5px;
+    padding: 45px;
+    font-size: 17px;
+    width: 250px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#silent p{
+    margin: 20px;
+    margin-top: 110px;
+    padding: 25px;
+    font-size: 17px;
+    width: 230px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.9375rem 6.25rem;
+    height: 12.5rem
+
+}
+    
+footer a {
+    text-decoration: none;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    display: block;
+    padding: 2.5rem 2.5rem;
+    align-content: center;
+}
+
+footer a:hover {
+    color: black;
+    background-color:white;
+}
+
+.typing1 {
+  width: 25ch;
+  animation: typing 2s steps(24), blink 1s step-end 3 forwards normal;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+.typing2 {
+  width: 23ch;
+  animation: typing 2s steps(24), blink 1s step-end 3 forwards normal;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+
+  
+}
+    
+@keyframes blink {
+  50% {
+    border-right: 4px solid;
+  }
+
+  100% {
+    border-right: 4px transparent;
+
+  }
+
+  
+  
+ 
+  
+}
